@@ -1,0 +1,79 @@
+body{ /* Requirement-2.A */
+    background-color: lightgray; /* Requirement-2.4 */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Requirement-2.1 */
+}
+
+p {
+    display: block; /* Requirement-2.12 */
+}
+
+img.border{ /* Requirement-2.C */
+    border: 3px solid black; /* Requirement-2.5 */
+    border-radius: 25px; /* Requirement-2.9 */
+}
+
+#border { /* Requirement-2.D */
+    border: 3px solid black;
+}
+
+ body ul { /* Requirement-2.F */
+    list-style: square; /* Requirement-2.8 */
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Requirement-2.14 */
+    background-color: #484b4f;
+}
+
+li.navigation {
+    float: left; /* Requirement-2.11 */
+}
+
+li a{
+    display: block;
+    color: white; /* Requirement-2.3 */
+    text-align: center;
+    padding: 14px 16px; /* Requirement-2.6 */
+    text-decoration: none;
+}
+
+li a:hover{ /* Requirement-2.E */
+    background-color: #111;
+}
+
+table,th,td { /* Requirement-2.B */
+    border: 1px solid
+}
+    
+.col1 {
+    text-align: center; /* Requirement-2.2 */
+}
+
+.contact{
+    background-color: #484b4f;
+    width: 50%; /* Requirement-2.10 */
+    height: 400px; /* Requirement-2.7 */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.content{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    visibility: visible; /* Requirement-2.16 */
+    clear: left; /* Requirement-2.13 */
+}
+
+#seagull {
+    position: absolute; /* Requirement-2.15 */
+    left: 0px;
+    top: 0px;
+    z-index: -1; /* Requirement-2.17 */
+}
+
+
